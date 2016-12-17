@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dn.Outguesser">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- The three screens below are children of Main -->
+        <activity android:name=".encodeWindow"
+            android:label="@string/encode_Label"
+            android:parentActivityName=".MainActivity"
+            />
+        <activity android:name=".decodeWindow"
+            android:label="@string/decode_Label"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".analyzeWindow"
+            android:label="@string/analyze_Label"
+            android:parentActivityName=".MainActivity" />
+    </application>
+
+</manifest>

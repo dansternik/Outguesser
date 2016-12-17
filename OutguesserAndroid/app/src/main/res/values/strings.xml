@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Outguesser 2000</string>
+    <string name="intro_message">\nWelcome.\n\nWe will be encoding, decoding, or detecting hidden
+        messages using the Outguess method.\n\n\n\n   Choose your operation:</string>
+
+    <string name="button_encode">Encode</string>
+    <string name="button_decode">Decode</string>
+    <string name="button_detect">Detect</string>
+
+    <string name="encode_Label">Encode</string>
+    <string name="button_chooseImage">Choose Image</string>
+    <string name="encode_Intro">\nConfigure your stegoimage:\n
+        \n
+          Choose one from the gallery, or take your own! (For best results, use natural images.)\n
+        \n
+          Encoded files will be written to folder \'TotallyNormalImages.\'
+    </string>
+    <string name="message_hint">Enter message to encode</string>
+    <string name="password_hint">Password</string>
+    <string name="filename_hint">Output filename (optional)</string>
+    <string name="button_startEncode">Encode Message</string>
+
+    <string name="decode_Label">Decode</string>
+    <string name="button_startDecode">Attempt Decode</string>
+    <string name="decode_Msg">Decoded mesage will display here.</string>
+
+
+    <string name="analyze_Label">Steganalyze</string>
+    <string name="analyze_Intro">\nSuspect someone\'s hiding something in that image? Let\'s find out.</string>
+    <string name="button_startDetect">Run Steganalysis</string>
+    <string name="pos_detect">Steganographic message detected!</string>
+    <string name="neg_detect">No steganographic message detected.</string>
+</resources>
